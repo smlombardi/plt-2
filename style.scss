@@ -1,0 +1,56 @@
+/*
+Theme Name:     PLToffroad
+Description:    
+Author:         Design by MGC
+Template:       Total
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+$title-font: 'Raleway', 'Open Sans', Arial, sans-serif;
+
+#wc-deposits-options-form .deposit-option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product_title {
+  font-size: 24px;
+}
+
+.woocommerce .products ul li,
+.woocommerce ul.products li {
+  list-style: none;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+
+.woocommerce ul.products li.product h3 {
+      color:#376434;
+     font-weight: bold !important;
+    font-family: $title-font;
+
+}
+
+.all-events {
+    padding-top: 30px !important;
+    background-image: url('images/event-bg.png') !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.events-title {
+  color: #fff;
+  a {
+    color: inherit;
+    text-decoration: underline;
+    &:after {
+      content: '\0020\0003E';
+    }
+  }
+  .wpex-vc-column-wrapper {
+    margin-bottom: 10px;
+  }
+}

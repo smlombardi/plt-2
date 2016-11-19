@@ -28,6 +28,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 <li <?php post_class(); ?>>
+
+
 	<?php
 	/**
 	 * woocommerce_before_shop_loop_item hook.
@@ -57,6 +59,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_rating - 5
 	 * @hooked woocommerce_template_loop_price - 10
 	 */
+	echo get_field('display_date');
 	do_action( 'woocommerce_after_shop_loop_item_title' );
 
 	/**

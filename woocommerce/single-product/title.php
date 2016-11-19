@@ -21,3 +21,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
+echo get_field('display_date');
