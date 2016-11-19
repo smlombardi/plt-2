@@ -1,0 +1,13 @@
+/*
+Theme Name:     PLToffroad
+Description:    
+Author:         Design by MGC
+Template:       Total
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+#wc-deposits-options-form .deposit-option {
+  display: block;
+  margin-bottom: 10px;
+}
