@@ -70,6 +70,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/vcex_templates\/vcex_woocommerce_carousel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vcex_templates\/vcex_woocommerce_carousel.php",
+		"oF": 0
+		},
 	"\/woocommerce.php": {
 		"ft": 8192,
 		"oA": 2,
