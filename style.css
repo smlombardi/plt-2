@@ -18,7 +18,8 @@ Template:       Total
   list-style: none;
   width: 30%;
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-bottom: 30px; }
 
 .woocommerce ul.products li.product h3 {
   color: #376434;
@@ -41,4 +42,10 @@ Template:       Total
       content: '\0020\0003E'; }
   .events-title .wpex-vc-column-wrapper {
     margin-bottom: 10px; }
+
+.gfield_total {
+  display: none !important; }
+
+.woocommerce ul.products li.product.outofstock .outofstock-badge {
+  display: none; }
 /*# sourceMappingURL=style.css.map */
